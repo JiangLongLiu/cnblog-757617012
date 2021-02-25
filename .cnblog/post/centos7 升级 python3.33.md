@@ -1,0 +1,2 @@
+<p><a href="https://segmentfault.com/a/1190000018814995?utm_source=tag-newest">https://segmentfault.com/a/1190000018814995?utm_source=tag-newest</a></p><p><br></p><p>我在我的电脑上补充</p><p>ln -s /usr/local/python3.8.1/bin/python3.8 /usr/bin/python<br>
+ln -s /usr/local/python3.8.1/bin/pip3 /usr/bin/pip3</p>

@@ -1,0 +1,2 @@
+<p>在VMware配置文件*.vmx的结尾中加入这两句话</p><div class="cnblogs_code" style="padding: 5px; border: 1px solid rgb(204, 204, 204); border-image: none; background-color: rgb(245, 245, 245);"><pre>MemTrimRate = <span style="color: rgb(128, 0, 0);">"</span><span style="color: rgb(128, 0, 0);">0</span><span style="color: rgb(128, 0, 0);">"</span><span style="color: rgb(0, 0, 0);">
+mainMem.useNamedFile</span>= <span style="color: rgb(128, 0, 0);">"</span><span style="color: rgb(128, 0, 0);">FALSE</span><span style="color: rgb(128, 0, 0);">"</span></pre></div>这样，当虚拟机不用时，VMware就不会把内容中的内容转存到硬盘上

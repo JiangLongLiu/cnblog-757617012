@@ -1,0 +1,2 @@
+<p>有时候，下载的视频是mkv，要再camtasia，PR中编辑，而camtasia，PR不支持mkv导入<p>可以用ffmpeg命令把mkv 无损的转成 mp4<p><br><div class="cnblogs_code" style="padding: 5px; border: 1px solid rgb(204, 204, 204); border-image: none; background-color: rgb(245, 245, 245);"><pre>ffmpeg -i 源文件名  -c:v copy -<span style="color: rgb(0, 0, 0);">c:a aac 目标文件名
+ffmpeg </span>-i <span style="color: rgb(128, 0, 128);">1</span>.mkv  -c:v copy -c:a aac <span style="color: rgb(128, 0, 128);">1</span>.mp4</pre></div>
